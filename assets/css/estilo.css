@@ -1,4 +1,4 @@
-@import url('assets/css/reset.css');
+@import url('reset.css');
 body {
     background-color: black;
 }
@@ -20,7 +20,7 @@ section {
 }
 
 .banner {
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(36, 157, 209, 0.3),rgba(0,0,0,0.6)), url('assets/images/banner.png');
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(36, 157, 209, 0.3),rgba(0,0,0,0.6)), url('../images/banner.png');
     background-size: cover;
     background-repeat: no-repeat;
     height: 605px;
@@ -122,7 +122,7 @@ section {
     align-content: right;
     height: 400px;
     background-size: cover;
-    background-image: url('assets/images/woman-code.png');
+    background-image: url("../images/woman-code.png");
     background-attachment: fixed;
     border-top: 2px solid #33A8DB80;
     border-bottom: 2px solid #33A8DB80;
